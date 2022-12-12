@@ -1,9 +1,8 @@
 import { format } from 'date-fns';
 
+import { HOURLY } from '../constants';
 import { axios } from '../httpClient';
 import { NordpoolResponse } from '../types/nordpool';
-
-import { HOURLY } from './../constants';
 
 type Areas = 'FI' | 'Bergen' | 'DK1' | 'DK2' | 'OSLO' | 'SE1' | 'SE2' | 'SE3' | 'SE4' | 'SYS';
 
