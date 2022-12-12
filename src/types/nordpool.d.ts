@@ -146,7 +146,6 @@ export interface NordpoolData {
   DataStartdate: string;
   DataEnddate: string;
   MinDateForTimeScale: string;
-  AreaChanges: any[];
   Units: string[];
   LatestResultDate: string;
   ContainsPreliminaryValues: boolean;
