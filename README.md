@@ -14,6 +14,8 @@ yarn add @jeffe/nordpool
 
 ## Usage
 
+[Automatically generated typedocs ](https://jeffeeeee.github.io/nordpool/)
+
 ```ts
 import { getHourly } from '@jeffe/nordpool';
 

@@ -1,1 +1,1 @@
-export * from './lib/client';
+export { getHourly } from './lib/client';
