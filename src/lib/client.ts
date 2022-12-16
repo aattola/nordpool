@@ -1,4 +1,4 @@
-import { format } from 'date-fns';
+import { DateTime } from 'luxon';
 
 import { HOURLY } from '../constants';
 import { axios } from '../httpClient';
@@ -11,6 +11,7 @@ interface getHourlyOptions {
   area: Areas;
   endDate?: string;
   vat?: number;
+  timezone?: string;
 }
 
 interface HourlyReturn {
@@ -21,12 +22,14 @@ interface HourlyReturn {
 }
 
 export async function getHourly(opt: getHourlyOptions): Promise<HourlyReturn[]> {
-  const url =
-    HOURLY +
-    '?currency=' +
-    'EUR' +
-    '&endDate=' +
-    (opt.endDate ? opt.endDate : format(new Date(), 'dd-MM-yyyy'));
+  const endDate =
+    opt.endDate ??
+    DateTime.now()
+      .setZone(opt.timezone ?? 'Europe/Oslo')
+      .toFormat('dd-MM-yyyy');
+  console.log(endDate);
+
+  const url = HOURLY + '?currency=' + 'EUR' + '&endDate=' + endDate;
 
   const resp = await axios.get<NordpoolResponse>(url);
 
