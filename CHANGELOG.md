@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/jeffeeeee/nordpool/compare/v2.0.0...v2.1.0) (2022-12-16)
+
+
+### Features
+
+* get current time based on timezone ([ca8be21](https://github.com/jeffeeeee/nordpool/commit/ca8be21cf19fbee58dfcf0d23810680b125efd51))
+
 ## [2.0.0](https://github.com/jeffeeeee/nordpool/compare/v1.0.1...v2.0.0) (2022-12-12)
 
 
