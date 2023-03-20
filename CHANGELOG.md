@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/jeffeeeee/nordpool/compare/v2.1.0...v2.1.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* remove useless console.log ([907a37f](https://github.com/jeffeeeee/nordpool/commit/907a37fb628c9755e27d2eb7dc32bcfd54e4a705))
+
 ## [2.1.0](https://github.com/jeffeeeee/nordpool/compare/v2.0.0...v2.1.0) (2022-12-16)
 
 
