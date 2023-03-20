@@ -27,7 +27,6 @@ export async function getHourly(opt: getHourlyOptions): Promise<HourlyReturn[]> 
     DateTime.now()
       .setZone(opt.timezone ?? 'Europe/Oslo')
       .toFormat('dd-MM-yyyy');
-  console.log(endDate);
 
   const url = HOURLY + '?currency=' + 'EUR' + '&endDate=' + endDate;
 
