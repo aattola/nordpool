@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/jeffeeeee/nordpool/compare/v2.1.1...v2.1.3) (2024-10-12)
+
+
+### Bug Fixes
+
+* new api url ([c9a948f](https://github.com/jeffeeeee/nordpool/commit/c9a948fec4ab1b3e759534272879418bd4797c65))
+
 ### [2.1.1](https://github.com/jeffeeeee/nordpool/compare/v2.1.0...v2.1.1) (2023-03-20)
 
 

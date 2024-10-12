@@ -1,6 +1,6 @@
 {
   "name": "@jeffe/nordpool",
-  "version": "2.1.1",
+  "version": "2.1.3",
   "description": "Nordpool unofficial API",
   "private": false,
   "main": "build/main/index.js",
